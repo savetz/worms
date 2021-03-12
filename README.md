@@ -1,5 +1,5 @@
 # worms
-source code for Worms? by David S. Maynard
+Forth language source code for Worms? by David S. Maynard
 
 Atari 800 version: ATR files are from David's original floppies. I exported the code into ASCII text files for easier reading.
 
