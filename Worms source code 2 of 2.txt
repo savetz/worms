@@ -1,0 +1,1332 @@
+(Screens 0 and 1 omitted from this text version because they're pure data.
+Refer to the ATR file for that data.)
+
+Scr # 2 
+  0  \ WORMS? COPYRIGHT (C) 1983 BY
+  1 DAVID S. MAYNARD
+  2  ( WITH DISK/IO WITHOUT BUILDS D
+  3 OES  )
+  4  ( MASTER   APRIL 18, 1983.  ATA
+  5 RI 800  FINAL   ) HEX
+  6   8000 CONSTANT HIMEM HIMEM 1000
+  7  - CONSTANT PMAREA
+  8  CODE ?TERMINAL
+  9 
+ 10    D01F LDA, 7 # EOR, 7 # AND,
+ 11 
+ 12    PHA, 0 # LDA, PUSH JMP,
+ 13 
+ 14    END-CODE
+ 15 
+
+
+Scr # 3 
+  0  : SOUND
+  1 
+  2    0232 C@ 07 AND
+  3 
+  4    D20F C! 0 D208 C!
+  5 
+  6    2 * D200 + >R >R 10 * OR
+  7 
+  8    EF AND
+  9 
+ 10    100 * R> OR R> ! ;
+ 11 
+ 12 : XSND
+ 13 
+ 14   D208 D200 DO 0 I C! LOOP ;  ;S
+ 15 
+
+
+Scr # 4 
+  0 HEX   HERE
+  1 
+  2  A4 C,   A6 C,   A8 C,   A8 C,
+  3  A7 C,   A7 C,   A6 C,   A5 C,
+  4  CONSTANT BASSA
+  5 
+  6 HERE
+  7 
+  8  8A C,   82 C,   88 C,   82 C,
+  9  81 C,
+ 10  CONSTANT DRUMSA
+ 11 
+ 12 HERE
+ 13 
+ 14  A5 C,   A7 C,   A7 C,   A6 C,
+ 15  A5 C,
+?
+
+Scr # 5 
+  0  CONSTANT TENORA
+  1 
+  2 HERE
+  3 
+  4  A6 C,   A8 C,   A8 C,   A7 C,
+  5  A6 C,
+  6  CONSTANT ALTOA
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+
+
+Scr # 6 
+  0 HERE
+  1 
+  2  A3 C,   A2 C,   A1 C,
+  3 
+  4  CONSTANT BASSR
+  5 
+  6 HERE
+  7 
+  8  80 C,   80 C,   80 C,
+  9 
+ 10  CONSTANT DRUMSR
+ 11 
+ 12 HERE
+ 13 
+ 14  A4 C,   A2 C,   A1 C,
+ 15 
+
+
+Scr # 7 
+  0  CONSTANT TENORR
+  1 
+  2 HERE
+  3 
+  4  A5 C,   A3 C,   A1 C,
+  5 
+  6  CONSTANT ALTOR
+  7 
+  8 HERE
+  9 
+ 10   0 C,   78 C,    0 C,   78 C,
+ 11   0 C,    A C,   B6 C,   1E C,
+ 12  F3 C,   1E C,   D9 C,   1E C,
+ 13  C1 C,   1E C,   B6 C,   1E C,
+ 14  F3 C,   1E C,   D9 C,   1E C,
+ 15  C1 C,   14 C,    0 C,    A C,
+?
+
+Scr # 8 
+  0  B6 C,   1E C,   F3 C,   1E C,
+  1  D9 C,   1E C,   C1 C,   1E C,
+  2  B6 C,   1E C,   F3 C,   1E C,
+  3  D9 C,   1E C,   C1 C,   14 C,
+  4   0 C,    A C,   B6 C,   1E C,
+  5  F3 C,   1E C,   D9 C,   1E C,
+  6  C1 C,   1E C,   B6 C,   1E C,
+  7  F3 C,   1E C,   D9 C,   1E C,
+  8  C1 C,   14 C,    0 C,    A C,
+  9  B6 C,   1E C,   F3 C,   1E C,
+ 10  D9 C,   1E C,   C1 C,   1E C,
+ 11  B6 C,   1E C,   F3 C,   1E C,
+ 12  D9 C,   1E C,   C1 C,   14 C,
+ 13   0 C,    A C,   B6 C,   1E C,
+ 14  F3 C,   1E C,   D9 C,   1E C,
+ 15  C1 C,   1E C,   B6 C,   1E C,
+
+
+Scr # 9 
+  0  F3 C,   1E C,   D9 C,   1E C,
+  1  C1 C,   14 C,
+  2  CONSTANT BASS
+  3 
+  4 HERE
+  5 
+  6  1E C,    A C,   1E C,    A C,
+  7  1E C,    A C,   1E C,    A C,
+  8  1E C,   14 C,   1E C,    A C,
+  9  1E C,    A C,   1E C,    A C,
+ 10  1E C,    A C,   1E C,   14 C,
+ 11  1E C,    A C,   1E C,    A C,
+ 12  1E C,    A C,   1E C,    A C,
+ 13  1E C,    A C,   1E C,    A C,
+ 14  1E C,    A C,   1E C,    A C,
+ 15  1E C,    A C,   1E C,    A C,
+
+
+Scr # 10 
+  0  1E C,   14 C,
+  1 
+  2  CONSTANT DRUMS
+  3 
+  4 HERE
+  5 
+  6   0 C,   78 C,    0 C,   78 C,
+  7   0 C,   78 C,    0 C,   78 C,
+  8   0 C,   78 C,    0 C,   78 C,
+  9  A2 C,    A C,   90 C,   14 C,
+ 10  79 C,    A C,   90 C,   14 C,
+ 11  A2 C,    A C,   90 C,   14 C,
+ 12  79 C,    A C,   90 C,   14 C,
+ 13  A2 C,    A C,   90 C,   14 C,
+ 14  79 C,    A C,   79 C,   1E C,
+ 15  A2 C,   14 C,   90 C,    A C,
+?
+
+Scr # 11 
+  0  88 C,   14 C,   A2 C,    A C,
+  1  90 C,   14 C,   79 C,    A C,
+  2  90 C,   14 C,   A2 C,    A C,
+  3  90 C,   14 C,   79 C,    A C,
+  4  90 C,   14 C,   A2 C,    A C,
+  5  90 C,   14 C,   79 C,    A C,
+  6  79 C,   1E C,   A2 C,   14 C,
+  7  90 C,    A C,   88 C,   14 C,
+  8  A2 C,    A C,   90 C,   14 C,
+  9  79 C,    A C,   90 C,   14 C,
+ 10  A2 C,    A C,   90 C,   14 C,
+ 11  79 C,    A C,   90 C,   14 C,
+ 12  A2 C,    A C,   90 C,   14 C,
+ 13  79 C,    A C,   79 C,   1E C,
+ 14  A2 C,   14 C,   90 C,    A C,
+ 15  88 C,   14 C,
+
+
+Scr # 12 
+  0  CONSTANT TENOR
+  1 
+  2 HERE
+  3 
+  4   0 C,   78 C,    0 C,   78 C,
+  5   0 C,   78 C,    0 C,   78 C,
+  6  79 C,    A C,   5B C,   14 C,
+  7  48 C,    A C,   5B C,   14 C,
+  8  79 C,    A C,   5B C,   14 C,
+  9  48 C,    A C,   5B C,   14 C,
+ 10  79 C,    A C,   5B C,   14 C,
+ 11  51 C,    A C,   48 C,    A C,
+ 12  51 C,    A C,   5B C,    A C,
+ 13  60 C,   14 C,   5B C,    A C,
+ 14  51 C,   14 C,   79 C,    A C,
+ 15  5B C,   14 C,   48 C,    A C,
+
+
+Scr # 13 
+  0  5B C,   14 C,   79 C,    A C,
+  1  5B C,   14 C,   48 C,    A C,
+  2  5B C,   14 C,   79 C,    A C,
+  3  5B C,   14 C,   51 C,    A C,
+  4  48 C,    A C,   51 C,    A C,
+  5  5B C,    A C,   60 C,   14 C,
+  6  5B C,    A C,   51 C,   14 C,
+  7  79 C,    A C,   5B C,   14 C,
+  8  48 C,    A C,   5B C,   14 C,
+  9  79 C,    A C,   5B C,   14 C,
+ 10  48 C,    A C,   5B C,   14 C,
+ 11  79 C,    A C,   5B C,   14 C,
+ 12  51 C,    A C,   48 C,    A C,
+ 13  51 C,    A C,   5B C,    A C,
+ 14  60 C,   14 C,   5B C,    A C,
+ 15  51 C,   14 C,   79 C,    A C,
+?
+
+Scr # 14 
+  0  5B C,   14 C,   48 C,    A C,
+  1  5B C,   14 C,   79 C,    A C,
+  2  5B C,   14 C,   48 C,    A C,
+  3  5B C,   14 C,   79 C,    A C,
+  4  5B C,   14 C,   51 C,    A C,
+  5  48 C,    A C,   51 C,    A C,
+  6  5B C,    A C,   60 C,   14 C,
+  7  5B C,    A C,   51 C,   14 C,
+  8 
+  9 
+ 10  CONSTANT ALTO
+ 11 
+ 12  HERE CONSTANT END-ALTO
+ 13 
+ 14 
+ 15 
+
+
+Scr # 15 
+  0 
+  1 
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+
+
+Scr # 16 
+  0  ( MUSIC TOP LEVEL TABLES ) BASE
+  1  @ HEX
+  2  HERE BASSA , DRUMSA , TENORA ,
+  3 ALTOA , CONSTANT ATK
+  4  HERE BASSR , DRUMSR , TENORR ,
+  5 ALTOR , CONSTANT RLS
+  6  HERE 8 , 5 , 5 , 5 , CONSTANT A
+  7 TK.CT
+  8  HERE 3 , 3 , 3 , 3 , CONSTANT R
+  9 LS.CT
+ 10  HERE 0 , 0 , 0 , 0 , CONSTANT M
+ 11 CDT
+ 12  HERE 0 , 0 , 0 , 0 , CONSTANT
+ 13 CUT
+ 14  HERE BASS 5D + , DRUMS 29 + ,
+ 15 
+?
+
+Scr # 17 
+  0       TENOR 65 + , ALTO 8F + , C
+  1 ONSTANT NCUR
+  2  HERE BASS 5E + , DRUMS 2A + ,
+  3 
+  4       TENOR 66 + , ALTO 90 + , C
+  5 ONSTANT NMAX
+  6  HERE BASS , DRUMS , TENOR , ALT
+  7 O , CONSTANT NORG
+  8  0 CONSTANT REST
+  9 
+ 10  2 CONSTANT MTMP ( 0-PAGE PTR )
+ 11 
+ 12 BASE ! ;S
+ 13 
+ 14 
+ 15 
+
+
+Scr # 18 
+  0  ( MUSIC BOX INTERRUPT CODE  ) B
+  1 ASE @ HEX
+  2  CODE NEWNOTE \ POINT TO NEXT [P
+  3 ITCH,DURATION] AND SETUP
+  4   NCUR ,X INC, 0= IF, NCUR 1+ ,X
+  5  INC, THEN,
+  6   NCUR ,X LDA, NMAX ,X CMP, 0=
+  7 IF,
+  8    NCUR 1+ ,X LDA, NMAX 1+ ,X CM
+  9 P, 0=
+ 10     IF, NORG ,X LDA, NCUR ,X STA
+ 11 ,
+ 12      NORG 1+ ,X LDA, NCUR 1+ ,X
+ 13 STA, THEN,
+ 14    THEN,
+ 15 
+
+
+Scr # 19 
+  0   0 # LDA, CUT ,X STA, AUDC ,X S
+  1 TA, TAY,
+  2   NCUR ,X LDA, MTMP STA, NCUR 1+
+  3  ,X LDA, MTMP 1+ STA,
+  4   MTMP )Y LDA, AUDF ,X STA, ( ST
+  5 ORE NOTE )
+  6   NCUR ,X INC, 0= IF, NCUR 1+ ,X
+  7  INC, THEN,
+  8   MTMP    INC, 0= IF, MTMP 1+
+  9  INC, THEN,
+ 10   MTMP )Y LDA, MCDT ,X STA,  ( S
+ 11 TORE DURATION )
+ 12   RTS, END-CODE
+ 13 
+ 14  BASE ! ;S
+ 15 
+?
+
+Scr # 20 
+  0  ( MUSIC BOX INTERRUPT CODE  ) B
+  1 ASE @ HEX
+  2 
+  3 
+  4  CODE DORLS
+  5 
+  6   RLS.CT ,X LDA, SEC, MCDT ,X SB
+  7 C, TAY,
+  8   RLS ,X LDA, MTMP STA,
+  9 
+ 10   RLS 1+ ,X LDA, MTMP 1+ STA,
+ 11 
+ 12   MTMP )Y LDA, AUDC ,X STA, RTS,
+ 13  END-CODE
+ 14 
+ 15 
+
+
+Scr # 21 
+  0  CODE DOATK
+  1 
+  2   CUT ,X LDA, TAY,
+  3 
+  4   ATK ,X LDA, MTMP STA,
+  5 
+  6   ATK 1+ ,X LDA, MTMP 1+ STA,
+  7 
+  8   MTMP )Y LDA, AUDC ,X STA, RTS,
+  9  END-CODE
+ 10 
+ 11 
+ 12  BASE ! ;S
+ 13 
+ 14 
+ 15 
+
+
+Scr # 22 
+  0  ( MUSIC BOX INTERRUPT CODE  ) B
+  1 ASE @ HEX
+  2 
+  3 
+  4  CODE EACHTIME ( SEQUENCING AND
+  5 ENVELOPE )
+  6   MCDT ,X LDA, 0= IF, ' NEWNOTE
+  7 JSR, THEN,
+  8   NCUR ,X LDA, MTMP STA,
+  9 
+ 10   NCUR 1+ ,X LDA, MTMP 1+ STA, 0
+ 11  # LDY,
+ 12   MTMP )Y LDA, REST # CMP, 0= NO
+ 13 T IF,
+ 14    MCDT ,X LDA, RLS.CT ,X CMP, C
+ 15 S NOT
+?
+
+Scr # 23 
+  0     IF, ' DORLS JSR, THEN,
+  1 
+  2    CUT ,X LDA, ATK.CT ,X CMP, CS
+  3  NOT
+  4     IF, ' DOATK JSR, THEN,
+  5 
+  6    THEN,
+  7 
+  8   CUT ,X INC, MCDT ,X DEC,
+  9 
+ 10   CLC, RTS, END-CODE
+ 11 
+ 12 
+ 13 
+ 14 BASE ! ;S
+ 15 
+
+
+Scr # 24 
+  0  ( MUSIC BOX INTERRUPT CODE  )
+  1 BASE @ HEX
+  2  CODE MUSICVBI
+  3 
+  4   8 # LDX, BEGIN, DEX, DEX,
+  5 
+  6     ' EACHTIME JSR,
+  7 
+  8     0 # CPX, 0= UNTIL,
+  9 
+ 10     E462 JMP,
+ 11 
+ 12     END-CODE
+ 13 
+ 14 
+ 15 
+
+
+Scr # 25 
+  0   BASE !  ;S
+  1 
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+?
+
+Scr # 26 
+  0  ( MUSIC INITILIZATION ) BASE @
+  1 HEX
+  2  HERE BASS 5D + , DRUMS 29 + ,
+  3 
+  4       TENOR 65 + , ALTO 8F + , C
+  5 ONSTANT MSTRT
+  6 
+  7 
+  8  : INITMUSIC
+  9 
+ 10     MCDT 8 0 FILL
+ 11 
+ 12      CUT 8 0 FILL
+ 13 
+ 14     MSTRT NCUR 8 CMOVE ;
+ 15 
+
+
+Scr # 27 
+  0 
+  1 
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12   BASE ! ;S
+ 13 
+ 14 
+ 15 
+
+
+Scr # 28 
+  0  ( EA   LOGO   ) BASE @ HEX
+  1 
+  2  HERE
+  3 
+  4  FF C, C0 C, FF C, C0 C, FF C, C
+  5 0 C, FF C, C0 C,
+  6  FF C, C0 C, FF C, C0 C, FF C, C
+  7 0 C, FF C, C0 C,
+  8  FF C, C0 C, FF C, C0 C, FF C, C
+  9 0 C, FF C, FF C,
+ 10  CONSTANT EASQ
+ 11 
+ 12  HERE
+ 13 
+ 14  03 C, 0C C, 1F C, 38 C, 3F C, 7
+ 15 0 C, 7F C, 60 C,
+?
+
+Scr # 29 
+  0  FF C, E0 C, FF C, F0 C, FF C, F
+  1 8 C, FF C, FC C,
+  2  7F C, 7E C, 7F C, 3F C, 3F C, 1
+  3 F C, 0F C, 03 C,
+  4  CONSTANT EACR1  HERE
+  5 
+  6  C0 C, 00 C, F8 C, 00 C, FC C, 0
+  7 0 C, FE C, 00 C,
+  8  FF C, 00 C, FF C, 00 C, FF C, 0
+  9 0 C, FF C, 00 C,
+ 10  FE C, 00 C, FE C, 80 C, FC C, E
+ 11 0 C, F0 C, C0 C,
+ 12  CONSTANT EACR2
+ 13 
+ 14 BASE !   ;S
+ 15 
+
+
+Scr # 30 
+  0  ( TETRA ) BASE @ HEX
+  1 
+  2  HERE
+  3 
+  4 00 C, 00 C, 00 C, 01 C, 00 C, 03
+  5  C, 00 C, 07 C,
+  6 00 C, 07 C, 00 C, 0F C, 00 C, 1F
+  7  C, 00 C, 1F C,
+  8 00 C, 3F C, 00 C, 7F C, 00 C, 7F
+  9  C, 00 C, FF C,
+ 10  CONSTANT TETRA1
+ 11 
+ 12  HERE
+ 13 
+ 14 80 C, 80 C, 80 C, C0 C, 40 C, C0
+ 15  C, 60 C, E0 C,
+
+
+Scr # 31 
+  0 60 C, F0 C, 70 C, F0 C, 38 C, F8
+  1  C, 38 C, FC C,
+  2 3C C, FC C, 3E C, FE C, 1E C, FF
+  3  C, 1F C, FF C,
+  4  CONSTANT TETRA2
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14  BASE ! ;S
+ 15 
+?
+
+Scr # 32 
+  0  ( PLAYER MISSLE STUFF )  BASE @
+  1  HEX
+  2  PMAREA <-> PMX
+  3 
+  4   D008 <-> SIZEP0 D000 <-> HPOSP
+  5 0
+  6  HERE PMX 400 + , PMX 500 + , PM
+  7 X 600 + , PMX 700 + , PMX 300 +
+  8   ,     <-> PMXTAB
+  9 
+ 10  : XCLEARPM PMX 300 + 500 0 FILL
+ 11  ;
+ 12  : PMON  PMX hi PMBASE C! 3C DMA
+ 13 CTL C!  3 GRACTL C!
+ 14          4 0 DO  88 COLPM0 I + C
+ 15 ! LOOP
+
+
+Scr # 33 
+  0    4 0   DO 1 D008 I + C! LOOP ;
+  1 
+  2  : PMOFF ( 22 DMACTL C! ) 0 GRAC
+  3 TL C!  XCLEARPM
+  4          5 0 DO 0 D00D I + C! LO
+  5 OP ;
+  6 
+  7 
+  8  BASE ! ;S
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+
+
+Scr # 34 
+  0   ( PLAYER MISSLE STUFF CONT ) B
+  1 ASE @ HEX
+  2 
+  3 
+  4  0 VARIABLE XWAITV
+  5 
+  6  : SETUP XCLEARPM PMON 0 XWAITV
+  7 C!
+  8       4 0 DO 88 COLPM0 I + C! LO
+  9 OP 88 2C7 C!
+ 10       21 D01B C! 21 26F C! ( 68
+ 11 D000 C! 70 D001 C! 78 D002! )
+ 12   ( 4 0 DO I I + 98 + D007 I - C
+ 13 ! LOOP  )  80 D003 C!
+ 14            4 0 DO 0 D009 I + C!
+ 15 LOOP  1 D008 C!  ;
+?
+
+Scr # 35 
+  0  : HELLO 02FC C@ FF = IF ELSE 1
+  1 XWAITV C! KEY DROP THEN
+  2          ?TERMINAL IF 1 XWAITV C
+  3 ! THEN XWAITV C@ ;
+  4  : XWAIT ( TICKS )
+  5 
+  6    0 220 ! FF 22E C! 1 MAX 220 !
+  7 
+  8    BEGIN 22E C@ 0= HELLO OR UNTI
+  9 L ;
+ 10 
+ 11 
+ 12   BASE ! ;S
+ 13 
+ 14 
+ 15 
+
+
+Scr # 36 
+  0  ( ASSEMBLER LOGO CODE ) BASE @
+  1 HEX
+  2  68 VARIABLE SH  76 VARIABLE CH
+  3  82 VARIABLE  TH
+  4  68 VARIABLE SHT 76 VARIABLE CHT
+  5  82 VARIABLE THT
+  6  68 VARIABLE SV  68 VARIABLE CV
+  7  68 VARIABLE  TV
+  8  68 VARIABLE SVT 68 VARIABLE CVT
+  9  68 VARIABLE TVT
+ 10  01 VARIABLE DSH FF VARIABLE DCH
+ 11  01 VARIABLE DTH
+ 12  FF VARIABLE DSV 01 VARIABLE DCV
+ 13  01 VARIABLE DTV
+ 14  18 CONSTANT BMH ( BIT MAP HEIGH
+ 15 T )
+
+
+Scr # 37 
+  0 :  XINITPOS
+  1 
+  2    68 SH  ! 76 CH  ! 82 TH  !
+  3 
+  4    68 SHT ! 76 CHT ! 82 THT !
+  5 
+  6    68 SV  ! 68 CV  ! 68 CV  !
+  7 
+  8    68 SVT ! 68 CVT ! 68 TVT !
+  9 
+ 10    01 DSH ! FF DCH ! 01 DTH !
+ 11 
+ 12    FF DSV ! 01 DCV ! 01 DTV ! ;
+ 13 
+ 14  BASE ! ;S
+ 15 
+?
+
+Scr # 38 
+  0  ( ASSEMBLER LOGO CODE CONT ) BA
+  1 SE @ HEX
+  2   CODE XSH ( PLACE SQUARE HORIZO
+  3 NTALLY )
+  4     SHT LDA, SH STA, D000 STA, R
+  5 TS, END-CODE
+  6   CODE XCH
+  7 
+  8     CHT LDA, CH STA, D001 STA, C
+  9 LC, 8 # ADC, D002 STA,
+ 10     CLC,  RTS, END-CODE
+ 11 
+ 12   CODE XTH
+ 13 
+ 14     THT LDA, TH STA, D003 STA, C
+ 15 LC, 8 # ADC, D007 STA,
+
+
+Scr # 39 
+  0     2 # ADC, D006 STA, 2 # ADC,
+  1 D005 STA, 2 # ADC, D004 STA,
+  2     CLC, RTS, END-CODE
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14  BASE ! ;S
+ 15 
+
+
+Scr # 40 
+  0  ( ASSEMBLER LOGO CODE ) BASE @
+  1 HEX
+  2  CODE XZMAP ( ASSUMES FB )
+  3 
+  4    0 # LDA, BMH # LDY, BEGIN,
+  5 
+  6      DEY, FB )Y STA, 0 # CPY, 0=
+  7  UNTIL,
+  8      RTS, END-CODE
+  9 
+ 10  CODE CPYMAP ( ASSUMES FB=DEST F
+ 11 D=SOURCE )
+ 12     BMH # LDY, BEGIN,
+ 13 
+ 14      DEY, FD )Y LDA, FB )Y STA,
+ 15 0 # CPY, 0= UNTIL,
+?
+
+Scr # 41 
+  0      RTS, END-CODE
+  1 
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 BASE ! ;S
+ 15 
+
+
+Scr # 42 
+  0  ( ASSEMBLER LOGO CODE ) BASE @
+  1 HEX
+  2  CODE YS1
+  3 
+  4     SV LDA, CLC, PMXTAB ADC, FB
+  5 STA,
+  6     0 # LDA,   PMXTAB 1+ ADC, FC
+  7  STA,  CLC,
+  8     EASQ lo # LDA, FD STA, EASQ
+  9 hi # LDA, FE STA, RTS, END-CODE
+ 10  CODE YC1
+ 11 
+ 12     CV LDA, CLC, PMXTAB 2 + ADC,
+ 13  FB STA,
+ 14     0 # LDA,   PMXTAB 3 + ADC, F
+ 15 C STA,  CLC, EACR1 lo # LDA,
+
+
+Scr # 43 
+  0     FD STA, EACR1 hi # LDA, FE S
+  1 TA, RTS, END-CODE
+  2  CODE YC2
+  3 
+  4     CV LDA, CLC, PMXTAB 4 + ADC,
+  5  FB STA,
+  6     0 # LDA,   PMXTAB 5 + ADC, F
+  7 C STA,  CLC, EACR2 lo # LDA,
+  8     FD STA, EACR2 hi # LDA, FE S
+  9 TA, RTS, END-CODE
+ 10 BASE ! ;S
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+?
+
+Scr # 44 
+  0  ( ASSEMBLER LOGO CODE ) BASE @
+  1 HEX
+  2  CODE YT1
+  3 
+  4     TV LDA, CLC, PMXTAB 6 + ADC,
+  5  FB STA,
+  6     0 # LDA,   PMXTAB 7 + ADC, F
+  7 C STA,  CLC, TETRA1 lo # LDA,
+  8     FD STA, TETRA1 hi # LDA, FE
+  9 STA, RTS, END-CODE
+ 10  CODE YT2
+ 11 
+ 12     TV LDA, CLC, PMXTAB 8 + ADC,
+ 13  FB STA,
+ 14     0 # LDA,   PMXTAB 9 + ADC, F
+ 15 C STA,  CLC, TETRA2 lo # LDA,
+
+
+Scr # 45 
+  0     FD STA, TETRA2 hi # LDA, FE
+  1 STA, RTS, END-CODE
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 BASE ! ;S
+ 13 
+ 14 
+ 15 
+
+
+Scr # 46 
+  0  ( LOGO CODE CONT ) BASE @ HEX
+  1 
+  2   CODE XSV ' YS1 JSR, ' XZMAP JS
+  3 R, SVT LDA, SV STA,
+  4            ' YS1 JSR, ' CPYMAP J
+  5 SR, CLC,
+  6            RTS, END-CODE
+  7 
+  8   CODE XCV ' YC1 JSR, ' XZMAP JS
+  9 R, ' YC2 JSR, ' XZMAP JSR,
+ 10            CVT LDA, CV STA,
+ 11 
+ 12            ' YC1 JSR, ' CPYMAP J
+ 13 SR, ' YC2 JSR, ' CPYMAP JSR,
+ 14            RTS, END-CODE
+ 15 
+?
+
+Scr # 47 
+  0   CODE XTV ' YT1 JSR, ' XZMAP JS
+  1 R, ' YT2 JSR, ' XZMAP JSR,
+  2            TVT LDA, TV STA,
+  3 
+  4            ' YT1 JSR, ' CPYMAP J
+  5 SR, ' YT2 JSR, ' CPYMAP JSR,
+  6            RTS, END-CODE
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14  BASE ! ;S
+ 15 
+
+
+Scr # 48 
+  0  ( ASSEMBLER LOGO CODE ) BASE @
+  1 HEX
+  2  CODE MSH SH LDA, CLC, DSH ADC,
+  3 SHT STA, ' XSH JSR, SH LDA,
+  4   38 # CMP, 0= IF, 1 # LDA, DSH
+  5 STA, THEN,  SH LDA, B8 # CMP,
+  6   0= IF, FF # LDA, DSH STA, THEN
+  7 , CLC, RTS, END-CODE
+  8  CODE MCH CH LDA, CLC, DCH ADC,
+  9 CHT STA, ' XCH JSR, CH LDA,
+ 10   38 # CMP, 0= IF, 1 # LDA, DCH
+ 11 STA, THEN, CH LDA, B8 # CMP,
+ 12   0= IF, FF # LDA, DCH STA, THEN
+ 13 , CLC, RTS, END-CODE
+ 14  CODE MTH TH LDA, CLC, DTH ADC,
+ 15 THT STA, ' XTH JSR, TH LDA,
+
+
+Scr # 49 
+  0   38 # CMP, 0= IF, 1 # LDA, DTH
+  1 STA, THEN, TH LDA, B8 # CMP,
+  2   0= IF, FF # LDA, DTH STA, THEN
+  3 , CLC, RTS, END-CODE
+  4 
+  5 
+  6 BASE ! ;S
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+?
+
+Scr # 50 
+  0  ( ASSEMBLER LOGO CODE ) BASE @
+  1 HEX
+  2 
+  3 
+  4  CODE MSV SV LDA, CLC, DSV ADC,
+  5 SVT STA, ' XSV JSR, SV LDA,
+  6   38 # CMP, 0= IF, 1 # LDA, DSV
+  7 STA, THEN,  SV LDA, B8 # CMP,
+  8   0= IF, FF # LDA, DSV STA, THEN
+  9 , CLC, RTS, END-CODE
+ 10  CODE MCV CV LDA, CLC, DCV ADC,
+ 11 CVT STA, ' XCV JSR, CV LDA,
+ 12   38 # CMP, 0= IF, 1 # LDA, DCV
+ 13 STA, THEN, CV LDA, B8 # CMP,
+ 14   0= IF, FF # LDA, DCV STA, THEN
+ 15 , CLC, RTS, END-CODE
+
+
+Scr # 51 
+  0  CODE MTV TV LDA, CLC, DTV ADC,
+  1 TVT STA, ' XTV JSR, TV LDA,
+  2   38 # CMP, 0= IF, 1 # LDA, DTV
+  3 STA, THEN, TV LDA, B8 # CMP,
+  4   0= IF, FF # LDA, DTV STA, THEN
+  5 , CLC, RTS, END-CODE
+  6 
+  7 
+  8 BASE ! ;S
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+
+
+Scr # 52 
+  0  ( ASSEMBLER LOGO CODE ) BASE @
+  1 HEX
+  2  0 VARIABLE CLRX
+  3 
+  4 0 VARIABLE LFLAG
+  5 
+  6 CODE VBIPROC LFLAG LDA, 0= NOT I
+  7 F,
+  8   ' MSH JSR, ' MSV JSR,
+  9 
+ 10   ' MCH JSR, ' MCV JSR,
+ 11 
+ 12   ' MTH JSR, ' MTV JSR, THEN,
+ 13 
+ 14  14 LDA, # 3 AND, 0= IF, CLRX LD
+ 15 A, CLC, 1 # ADC, CLRX STA, THEN,
+?
+
+Scr # 53 
+  0    ' MUSICVBI JMP,  E462 JMP,
+  1 END-CODE
+  2 : INITVBI  ' VBIPROC 7 SET-INT 0
+  3  LFLAG ! 0 XWAITV ! ;
+  4 : QUITVBI E462 7 SET-INT ;
+  5 
+  6 : START 1 LFLAG C! ;
+  7 
+  8 : STOPX 0 LFLAG C! ;
+  9 
+ 10 
+ 11 
+ 12 BASE ! ;S
+ 13 
+ 14 
+ 15 
+
+
+Scr # 54 
+  0  ( DISPLAY LIST ) BASE @ HEX
+  1 
+  2   CODE INITL ' XSV JSR, ' XCV JS
+  3 R, ' XTV JSR,
+  4    ' XSH JSR, ' XCH JSR, ' XTH J
+  5 SR, NEXT JMP, END-CODE
+  6  : COLOR-OFF SAVDLH 230 ! ;
+  7 
+  8  BASE ! ;S
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+
+
+Scr # 55 
+  0 
+  1 
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+?
+
+Scr # 56 
+  0   ( EA   LOGO DL  ) BASE @ HEX
+  1 
+  2   HERE HERE
+  3 
+  4    30 C, 30 C, 30 C, 30 C, 30 C,
+  5  30 C, 30 C, 30 C,
+  6    B0 C, B0 C, B0 C, B0 C, B0 C,
+  7  B0 C, B0 C, B0 C,
+  8    B0 C, B0 C, B0 C, B0 C, B0 C,
+  9  B0 C, B0 C, B0 C,
+ 10    B0 C, B0 C, B0 C, B0 C, B0 C,
+ 11  B0 C, B0 C, B0 C,
+ 12    B0 C, B0 C, B0 C, B0 C, B0 C,
+ 13  B0 C, B0 C, B0 C,
+ 14    30 C, 30 C, 30 C, 30 C, 30 C,
+ 15  30 C, 30 C, 30 C,
+
+
+Scr # 57 
+  0    41 C, , <-> TDL
+  1 
+  2 
+  3 
+  4 BASE !   ;S
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+
+
+Scr # 58 
+  0 ;S
+  1 
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+?
+
+Scr # 59 
+  0 
+  1 
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+
+
+Scr # 60 
+  0 ;S
+  1 
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+
+
+Scr # 61 
+  0 
+  1 
+  2 
+  3 
+  4 
+  5 
+  6 
+  7 
+  8 
+  9 
+ 10 
+ 11 
+ 12 
+ 13 
+ 14 
+ 15 
+?
+
+Scr # 62 
+  0  ( WLOGO DATA ) BASE @ HEX HERE
+  1 
+  2  80 C, 80 C, 80 C, 80 C, 80 C, 8
+  3 0 C,
+  4  80 C, 88 C, DD C, 5D C, 77 C, 2
+  5 2 C,
+  6 
+  7 
+  8  80 C, 80 C, 9C C, A2 C, A2 C, A
+  9 2 C,
+ 10  A2 C, A2 C, A2 C, 22 C, 22 C, 1
+ 11 C C,
+ 12 
+ 13 
+ 14  00 C, 00 C, F1 C, 89 C, 89 C, 8
+ 15 9 C,
+
+
+Scr # 63 
+  0  F1 C, A1 C, B1 C, 91 C, 89 C, 8
+  1 9 C,
+  2 
+  3 
+  4  00 C, 00 C, 13 C, B4 C, F4 C, 5
+  5 6 C,
+  6  13 C, 11 C, 10 C, 10 C, 14 C, 1
+  7 3 C,
+  8 
+  9 
+ 10  00 C, 00 C, 8E C, 51 C, 01 C, 0
+ 11 2 C,
+ 12  02 C, 84 C, 44 C, 44 C, 40 C, 8
+ 13 4 C, CONSTANT WLOGO
+ 14  BASE ! ;S
+ 15 
+
+
+Scr # 64 
+  0  ( METAMORPHOSIS ) BASE @ HEX
+  1 
+  2   : CRSOURCE ( C R -- DATA BYTE
+  3 )
+  4     DUP C < IF C * SWAP C -  C +
+  5  ( TIMING ) 2DROP   0 ELSE
+  6    C - SWAP C * + WLOGO + C@ THE
+  7 N ;
+  8   : CRDESTA  ( C R --> DEST ADDR
+  9  )
+ 10      SWAP DUP +  PMXTAB + @ + 68
+ 11  + ;
+ 12   : METAM
+ 13 
+ 14      0 D008 C! 6C D000 C! 74 D00
+ 15 1 C! 7C D002 C! 84 D003 C!
+?
+
+Scr # 65 
+  0                92 D004 C! 90 D00
+  1 5 C! 8E D006 C! 8C D007 C!
+  2      100 0 DO
+  3 
+  4      RAND 5 MOD RAND 18 MOD
+  5 
+  6      2DUP CRSOURCE ROT ROT
+  7 
+  8      CRDESTA C! HELLO IF LEAVE T
+  9 HEN
+ 10      LOOP ;
+ 11 
+ 12    BASE ! ;S
+ 13 
+ 14 
+ 15 
+
+
+Scr # 66 
+  0  ( DISPLAY LIST ) BASE @ HEX
+  1 
+  2 
+  3 
+  4   CODE HBIM
+  5 
+  6     PHA, PHP,  D40B LDA,  CLRX A
+  7 DC,  D40A STA,
+  8     D012 STA, D013 STA, D014 STA
+  9 , D015 STA,
+ 10     D019 STA, PLP, PLA, RTI, END
+ 11 -CODE
+ 12 
+ 13 
+ 14  : EMERGE
+ 15 
+
+
+Scr # 67 
+  0     18 0 DO I
+  1 
+  2      5 0 DO DUP I SWAP 2DUP CRSO
+  3 URCE
+  4             ROT ROT CRDESTA C! L
+  5 OOP DROP
+  6             HELLO IF LEAVE THEN
+  7 LOOP ;
+  8 
+  9 
+ 10 
+ 11 
+ 12  BASE ! ;S
+ 13 
+ 14 
+ 15 
+?
+
+Scr # 68 
+  0  ( EA   LOGO   ) BASE @ HEX
+  1 
+  2  : COLOR-ON
+  3 
+  4    3C D400 C! 40 D40E C!  ' HBIM
+  5  200 ! C0 D40E C!
+  6    TDL 230 ! ;
+  7 
+  8  : SPLASH
+  9 
+ 10    0 D208 C! 3 D20F C!  0 2C8 C!
+ 11  INITMUSIC
+ 12    SETUP INITVBI  XINITPOS INITL
+ 13  COLOR-ON
+ 14    1 0 DO 80 XWAIT START 100 XWA
+ 15 IT STOPX
+
+
+Scr # 69 
+  0      HELLO IF LEAVE THEN LOOP
+  1 
+  2     40 D40E C!  ' HBIM 200 ! C0
+  3 D40E C!
+  4     80 XWAIT 0 2C8 C!  0 220 ! F
+  5 F 22E C! 1C0 220 !
+  6     METAM EMERGE  40 D40E C! BEG
+  7 IN 22E C@ 0= HELLO OR UNTIL
+  8     0 DMACTL C! COLOR-OFF  QUITV
+  9 BI XSND  PMOFF
+ 10     D208 D200 DO 0 I C! LOOP ;
+ 11 
+ 12 
+ 13 
+ 14 BASE !   ;S
+ 15 
+
+
+Scr # 70 
+  0  ( RESET ) HEX
+  1 
+  2  0 #WORMS ! HERE 58 ALLOT <-> W1
+  3  HERE 58 ALLOT <-> W2
+  4             HERE 58 ALLOT <-> W3
+  5  HERE 58 ALLOT <-> W4
+  6  : GRIDGLIDERS  INITMEM SPLASH
+  7 ANOFF C SCRLVAL C! 0 22F C!
+  8    CSBUILT @ IF ELSE FIXDUMMY TH
+  9 EN 0 #WORMS ! 0 SEL !
+ 10     W1 INITWORM W2 INITWORM W3 I
+ 11 NITWORM W4 INITWORM
+ 12  3 F 60 1 SOUND XSND  WCHSETH CH
+ 13 NOW C! 06 STO ! 8 WCHSET 3 + C!
+ 14  7D EMIT CLEARPM INSTALLEM IWDIS
+ 15 PLAY
+?
+
+Scr # 71 
+  0  SCRLON SUMO 7D EMIT CLEARF
+  1 
+  2  ( PROMPT ) CLEARPM  SCRLOFF
+  3 
+  4  4 0 DO I GWORM INITMOVES LOOP
+  5 
+  6  4 #WORMS ! 1 2F0 C! ( CURSOR OF
+  7 F ) DECIMAL
+  8  BEGIN   RUNLOOP  AGAIN
+  9 
+ 10  RESTORE FIXINTRPTS
+ 11 
+ 12  0 2F0 C! ( CURSOR ON  ) ; DECIM
+ 13 AL
+ 14  : TASK ; IS-FENCE  FINIS    (
+ 15  PROF ) ;S
+
