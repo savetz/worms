@@ -5,4 +5,6 @@ Atari 800 version: ATR files are from David's original floppies. I exported the 
 
 Disks provided to me by David, who has generously released the code with the MIT license.
 
+Also see https://archive.org/details/worms-source-code for scans of printed Worms? source code (several versions) and https://archive.org/details/david-maynard-worms-development-notes for David's development notes.
+
 ![photo of the Atari floppy disks](worms_atari_disks.jpg)
