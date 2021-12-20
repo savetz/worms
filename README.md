@@ -5,7 +5,7 @@
 
 [Atari-A-ATR]: ATR/Atari-A.ATR
 [Atari-B-ATR]: ATR/Atari-B.ATR
-[Commodore-D64]: ATR/Commodore.D64
+[Commodore-D64]: ATR/Commodore.d64
 
 [Atari Floppy]: Resources/Atari.jpg
 [Commodore Floppy]: Resources/Commodore.jpg
@@ -28,7 +28,7 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 
 ---
 
-**⸢ [Atari Floppy] ⸥ ⸢ [Commodore Floppy] ⸥**
+**Photos:** **⸢ [Atari Floppy] ⸥ ⸢ [Commodore Floppy] ⸥**
 
 ---
 
@@ -39,12 +39,12 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 <br>
 
 ##### Part 1
-**Forth:**    [:open_file_folder:](Atari-A-Forth) <br>
-**ATR:**   [:card_index:](Atari-A-ATR)
+**Forth:**    [:open_file_folder:][Atari-A-Forth] <br>
+**ATR:**   [:card_index:][Atari-A-ATR]
 
 ##### Part 2
-**Forth:**    [:open_file_folder:](Atari-B-Forth) <br>
-**ATR:**   [:card_index:](Atari-B-ATR)
+**Forth:**    [:open_file_folder:][Atari-B-Forth] <br>
+**ATR:**   [:card_index:][Atari-B-ATR]
 
 <br>
 
@@ -62,8 +62,8 @@ The **FORTH** disk images are not bootable.
 
 ## Commodore 64
 
-**Forth:**    [:open_file_folder:](Commodore-Forth) <br>
-**D64:**   [:card_index:](Commodore-D64)
+**Forth:**    [:open_file_folder:][Commodore-Forth] <br>
+**D64:**   [:card_index:][Commodore-D64]
 
 The **FORTH** disk image is not bootable and does<br>
 not use a standard **Commodore** disk structure.
