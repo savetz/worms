@@ -39,11 +39,11 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 <br>
 
 ##### Part 1
-**Forth:**    [:open_file_folder:][Atari-A-Forth] <br>
+**Forth:**     [:open_file_folder:][Atari-A-Forth] <br>
 **ATR:**   [:card_index:][Atari-A-ATR]
 
 ##### Part 2
-**Forth:**    [:open_file_folder:][Atari-B-Forth] <br>
+**Forth:**     [:open_file_folder:][Atari-B-Forth] <br>
 **ATR:**   [:card_index:][Atari-B-ATR]
 
 <br>
@@ -62,7 +62,7 @@ The **FORTH** disk images are not bootable.
 
 ## Commodore 64
 
-**Forth:**    [:open_file_folder:][Commodore-Forth] <br>
+**Forth:**     [:open_file_folder:][Commodore-Forth] <br>
 **D64:**   [:card_index:][Commodore-D64]
 
 The **FORTH** disk image is not bootable and does<br>
