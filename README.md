@@ -1,6 +1,8 @@
 
 [![Badge License]][License]
 
+<br>
+
 <div align = center>
 
 # Worms
@@ -24,6 +26,7 @@ Source code for **[Worms?]** by **[David S. Maynard]** from his original
     
 <br>
 <br>
+<br>
 
 ##  Atari 8-bit
 
@@ -39,7 +42,7 @@ Source code for **[Worms?]** by **[David S. Maynard]** from his original
 
 <br>
 
-| Part | Forth<br>Source     | Atari<br>Image     
+| Part | Forth Source        | Atari Image     
 |:----:|:-------------------:|:-------------------:
 | Ａ   | [📂][Forth Atari A] | [💾][Image Atari A] 
 | Ｂ   | [📂][Forth Atari B] | [💾][Image Atari B] 
@@ -50,6 +53,7 @@ Source code for **[Worms?]** by **[David S. Maynard]** from his original
     
 </div>
     
+<br>
 <br>
 <br>
 
