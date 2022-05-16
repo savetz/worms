@@ -114,13 +114,13 @@ version of the language used at **Electronics Arts**.
 
 <!----------------------------------------------------------------------------->
 
-[David S. Maynard]: https://github.com/dmaynard/
+[David S. Maynard]: https://github.com/dmaynard/ 'David S. Maynards GitHub Profile'
 [ValForth]: http://www.atarimania.com/utility-atari-400-800-xl-xe-valforth_17605.html
-[Gameplay]: https://www.youtube.com/watch?v=Y4JASQ7EsFY
-[Darworms]: https://github.com/dmaynard/Darworms
-[Scanned]: https://archive.org/details/worms-source-code
-[Worms?]: https://en.wikipedia.org/wiki/Worms%3F
-[Notes]: https://archive.org/details/david-maynard-worms-development-notes
+[Gameplay]: https://www.youtube.com/watch?v=Y4JASQ7EsFY 'Showcase of Worms? Gameplay' 
+[Darworms]: https://github.com/dmaynard/Darworms 'Javascript Reproduction of Worms? by David S. Maynard'
+[Scanned]: https://archive.org/details/worms-source-code 'Archive of the Scanned Source Code'
+[Worms?]: https://en.wikipedia.org/wiki/Worms%3F 'Wikipedia Article on Worms?'
+[Notes]: https://archive.org/details/david-maynard-worms-development-notes 'Archive of the Development Notes'
 
 [Badge License]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
 [License]: LICENSE
