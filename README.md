@@ -113,7 +113,7 @@ version of the language used at **Electronics Arts**.
 
 <!----------------------------------------------------------------------------->
 
-[David S. Maynard]: https://davidsmaynard.com/
+[David S. Maynard]: https://github.com/dmaynard/
 [ValForth]: http://www.atarimania.com/utility-atari-400-800-xl-xe-valforth_17605.html
 [Gameplay]: https://www.youtube.com/watch?v=Y4JASQ7EsFY
 [Scanned]: https://archive.org/details/worms-source-code
