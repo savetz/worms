@@ -1,19 +1,4 @@
 
-[Atari-A-Forth]: Source/Atari/WormsA.forth
-[Atari-B-Forth]: Source/Atari/WormsB.forth
-[Commodore-Forth]: Source/Commodore/Worms.forth
-
-[Atari-A-ATR]: ATR/Atari-A.ATR
-[Atari-B-ATR]: ATR/Atari-B.ATR
-[Commodore-D64]: ATR/Commodore.d64
-
-[Atari Floppy]: Resources/Atari.jpg
-[Commodore Floppy]: Resources/Commodore.jpg
-
-[Scanned Source Code]: https://archive.org/details/worms-source-code
-[Development Notes]: https://archive.org/details/david-maynard-worms-development-notes
-
-[ValForth]: http://www.atarimania.com/utility-atari-400-800-xl-xe-valforth_17605.html
 
 
 # Worms
@@ -32,43 +17,83 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 
 ---
 
-## Atari 8-bit
+##  Atari 8-bit
 
-*1983 / 04 / 19*
-
-<br>
-
-##### Part 1
-**Forth:**     [:open_file_folder:][Atari-A-Forth] <br>
-**ATR:**   [:card_index:][Atari-A-ATR]
-
-##### Part 2
-**Forth:**     [:open_file_folder:][Atari-B-Forth] <br>
-**ATR:**   [:card_index:][Atari-B-ATR]
+<kbd> 1983 / 04 / 19 </kbd>
 
 <br>
 
-The **FORTH** disk images are not bootable.
+| Part | Forth<br>Source     | Atari<br>Image     
+|:----:|:-------------------:|:-------------------:
+| Ａ   | [📂][Forth Atari A] | [💾][Image Atari A] 
+| Ｂ   | [📂][Forth Atari B] | [💾][Image Atari B] 
 
-##### Instructions
+<br>
+
+*The **FORTH** disk images are not bootable.*
+
+<br>
+
+### Instructions
 
 1. Load **[ValForth]**
 
 2. Switch to the source disk
 
-3. Type `LIST [screen number]`
+3. Type 
 
----
+    ```atari
+    LIST <Screen Number>
+    ```
+
+<br>
+<br>
 
 ## Commodore 64
 
-**Forth:**     [:open_file_folder:][Commodore-Forth] <br>
-**D64:**   [:card_index:][Commodore-D64]
+<br>
 
-The **FORTH** disk image is not bootable and does<br>
-not use a standard **Commodore** disk structure.
+| Forth Source          | D64 Image     
+|:---------------------:|:----------------------:
+| [📂][Forth Commodore] | [💾][Image Commodore] 
+
+
+*The **FORTH** disk image is not bootable and does* <br>
+*not use a standard **Commodore** disk structure.*
+
+<br>
+
+### Details
 
 `EAFORTH` & `SYSTEM` are fake files.
 
 `EAFORTH` was probably a proprietary / custom<br>
 version of the language used at **Electronics Arts**.
+
+
+<!----------------------------------------------------------------------------->
+
+[Scanned Source Code]: https://archive.org/details/worms-source-code
+[Development Notes]: https://archive.org/details/david-maynard-worms-development-notes
+
+[ValForth]: http://www.atarimania.com/utility-atari-400-800-xl-xe-valforth_17605.html
+
+
+<!---------------------------------{ Graphics }-------------------------------->
+
+[Commodore Floppy]: Resources/Commodore.jpg
+[Atari Floppy]: Resources/Atari.jpg
+
+
+<!-------------------------------{ Source Code }------------------------------->
+
+[Forth Commodore]: Source/Commodore/Worms.forth
+[Forth Atari A]: Source/Atari/WormsA.forth
+[Forth Atari B]: Source/Atari/WormsB.forth
+
+
+<!------------------------------{ Disk Images }-------------------------------->
+
+[Image Commodore]: ATR/Commodore.d64
+[Image Atari A]: ATR/Atari-A.ATR
+[Image Atari B]: ATR/Atari-B.ATR
