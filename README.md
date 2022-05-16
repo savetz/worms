@@ -11,7 +11,8 @@ It is available for `Atari 8-bit` and `Commodore 64`.
     
 ---
 
-**⸢ [Development Notes] ⸥ ⸢ [Scanned Source Code] ⸥**
+[![Button Notes]][Notes]   
+[![Button Scanned]][Scanned] 
 
 ---
     
@@ -102,8 +103,8 @@ version of the language used at **Electronics Arts**.
 
 <!----------------------------------------------------------------------------->
 
-[Scanned Source Code]: https://archive.org/details/worms-source-code
-[Development Notes]: https://archive.org/details/david-maynard-worms-development-notes
+[Scanned]: https://archive.org/details/worms-source-code
+[Notes]: https://archive.org/details/david-maynard-worms-development-notes
 
 [ValForth]: http://www.atarimania.com/utility-atari-400-800-xl-xe-valforth_17605.html
 
@@ -120,3 +121,9 @@ version of the language used at **Electronics Arts**.
 [Image Commodore]: ATR/Commodore.d64
 [Image Atari A]: ATR/Atari-A.ATR
 [Image Atari B]: ATR/Atari-B.ATR
+
+
+<!-------------------------------{ Buttons }----------------------------------->
+
+[Button Notes]: https://img.shields.io/badge/Development_Notes-6b9d52?style=for-the-badge
+[Button Scanned]: https://img.shields.io/badge/Scanned_Code-52819d?style=for-the-badge
