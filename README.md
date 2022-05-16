@@ -1,5 +1,5 @@
 
-
+<div align = center>
 
 # Worms
 
@@ -7,6 +7,8 @@ Source code for **Worms** by **David S. Maynard** from his original<br> floppies
 
 It is available for `Atari 8-bit` and `Commodore 64`.
 
+<br>
+    
 ---
 
 **⸢ [Development Notes] ⸥ ⸢ [Scanned Source Code] ⸥**
@@ -16,6 +18,9 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 **Photos:** **⸢ [Atari Floppy] ⸥ ⸢ [Commodore Floppy] ⸥**
 
 ---
+    
+<br>
+<br>
 
 ##  Atari 8-bit
 
@@ -31,7 +36,9 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 <br>
 
 *The **FORTH** disk images are not bootable.*
-
+    
+</div>
+    
 <br>
 
 ### Instructions
@@ -49,6 +56,8 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 <br>
 <br>
 
+<div align = center>
+
 ## Commodore 64
 
 <br>
@@ -57,10 +66,13 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 |:---------------------:|:----------------------:
 | [📂][Forth Commodore] | [💾][Image Commodore] 
 
-
+<br>
+    
 *The **FORTH** disk image is not bootable and does* <br>
 *not use a standard **Commodore** disk structure.*
 
+</div>
+    
 <br>
 
 ### Details
