@@ -5,7 +5,7 @@
 
 # Worms
 
-Source code for **Worms** by **David S. Maynard** from his original<br> floppies, available for the `Atari 8-bit` and `Commodore 64`.
+Source code for **[Worms?]** by **[David S. Maynard]** from his original<br> floppies, available for the `Atari 8-bit` and `Commodore 64` .
 
 <br>
 
@@ -16,6 +16,7 @@ Source code for **Worms** by **David S. Maynard** from his original<br> floppies
     
 ---
 
+[![Button Gameplay]][Gameplay]   
 [![Button Notes]][Notes]   
 [![Button Scanned]][Scanned] 
 
@@ -108,10 +109,12 @@ version of the language used at **Electronics Arts**.
 
 <!----------------------------------------------------------------------------->
 
-[Scanned]: https://archive.org/details/worms-source-code
-[Notes]: https://archive.org/details/david-maynard-worms-development-notes
-
+[David S. Maynard]: https://davidsmaynard.com/
 [ValForth]: http://www.atarimania.com/utility-atari-400-800-xl-xe-valforth_17605.html
+[Gameplay]: https://www.youtube.com/watch?v=Y4JASQ7EsFY
+[Scanned]: https://archive.org/details/worms-source-code
+[Worms?]: https://en.wikipedia.org/wiki/Worms%3F
+[Notes]: https://archive.org/details/david-maynard-worms-development-notes
 
 [Badge License]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
 [License]: LICENSE
@@ -133,5 +136,6 @@ version of the language used at **Electronics Arts**.
 
 <!-------------------------------{ Buttons }----------------------------------->
 
-[Button Notes]: https://img.shields.io/badge/Development_Notes-6b9d52?style=for-the-badge
+[Button Gameplay]: https://img.shields.io/badge/Gameplay-yellow?style=for-the-badge
 [Button Scanned]: https://img.shields.io/badge/Scanned_Code-52819d?style=for-the-badge
+[Button Notes]: https://img.shields.io/badge/Development_Notes-6b9d52?style=for-the-badge
