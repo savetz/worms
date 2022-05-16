@@ -27,7 +27,7 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 <img
     src = 'Resources/Atari.jpg'
     align = right
-    height = 300
+    height = 270
 />
 
 <br>
@@ -44,6 +44,7 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 </div>
     
 <br>
+<br>
 
 ### Instructions
 
@@ -59,6 +60,7 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 
 <br>
 <br>
+<br>
 
 <div align = center>
 
@@ -69,7 +71,7 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 <img
     src = 'Resources/Commodore.jpg'
     align = right
-    height = 250
+    height = 240
 />
 
 <br>
@@ -86,6 +88,7 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 </div>
     
 <br>
+<br>
 
 ### Details
 
@@ -93,6 +96,8 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 
 `EAFORTH` was probably a proprietary / custom<br>
 version of the language used at **Electronics Arts**.
+
+<br>
 
 
 <!----------------------------------------------------------------------------->
