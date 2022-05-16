@@ -112,15 +112,15 @@ version of the language used at **Electronics Arts**.
 <!-------------------------------{ Source Code }------------------------------->
 
 [Forth Commodore]: Source/Commodore/Worms.forth
-[Forth Atari A]: Source/Atari/WormsA.forth
-[Forth Atari B]: Source/Atari/WormsB.forth
+[Forth Atari A]: Source/Atari/A.forth
+[Forth Atari B]: Source/Atari/B.forth
 
 
 <!------------------------------{ Disk Images }-------------------------------->
 
-[Image Commodore]: ATR/Commodore.d64
-[Image Atari A]: ATR/Atari-A.ATR
-[Image Atari B]: ATR/Atari-B.ATR
+[Image Commodore]: Binaries/Commodore.d64
+[Image Atari A]: Binaries/Atari/A.ATR
+[Image Atari B]: Binaries/Atari/B.ATR
 
 
 <!-------------------------------{ Buttons }----------------------------------->
