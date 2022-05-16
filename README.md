@@ -1,11 +1,16 @@
 
+[![Badge License]][License]
+
 <div align = center>
 
 # Worms
 
-Source code for **Worms** by **David S. Maynard** from his original<br> floppies, generously released by him under the **MIT License**.
+Source code for **Worms** by **David S. Maynard** from his original<br> floppies, available for the `Atari 8-bit` and `Commodore 64`.
 
-It is available for `Atari 8-bit` and `Commodore 64`.
+<br>
+
+*He generously released the code under **MIT** license.*
+
 
 <br>
     
@@ -107,6 +112,9 @@ version of the language used at **Electronics Arts**.
 [Notes]: https://archive.org/details/david-maynard-worms-development-notes
 
 [ValForth]: http://www.atarimania.com/utility-atari-400-800-xl-xe-valforth_17605.html
+
+[Badge License]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
+[License]: LICENSE
 
 
 <!-------------------------------{ Source Code }------------------------------->
