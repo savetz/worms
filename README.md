@@ -14,10 +14,6 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 **⸢ [Development Notes] ⸥ ⸢ [Scanned Source Code] ⸥**
 
 ---
-
-**Photos:** **⸢ [Atari Floppy] ⸥ ⸢ [Commodore Floppy] ⸥**
-
----
     
 <br>
 <br>
@@ -25,6 +21,14 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 ##  Atari 8-bit
 
 <kbd> 1983 / 04 / 19 </kbd>
+
+<br>
+
+<img
+    src = 'Resources/Atari.jpg'
+    align = right
+    height = 300
+/>
 
 <br>
 
@@ -62,6 +66,14 @@ It is available for `Atari 8-bit` and `Commodore 64`.
 
 <br>
 
+<img
+    src = 'Resources/Commodore.jpg'
+    align = right
+    height = 250
+/>
+
+<br>
+
 | Forth Source          | D64 Image     
 |:---------------------:|:----------------------:
 | [📂][Forth Commodore] | [💾][Image Commodore] 
@@ -89,12 +101,6 @@ version of the language used at **Electronics Arts**.
 [Development Notes]: https://archive.org/details/david-maynard-worms-development-notes
 
 [ValForth]: http://www.atarimania.com/utility-atari-400-800-xl-xe-valforth_17605.html
-
-
-<!---------------------------------{ Graphics }-------------------------------->
-
-[Commodore Floppy]: Resources/Commodore.jpg
-[Atari Floppy]: Resources/Atari.jpg
 
 
 <!-------------------------------{ Source Code }------------------------------->
