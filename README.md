@@ -7,31 +7,28 @@
 
 # Worms?
 
-Source code for **[Worms?]** by **[David S. Maynard]** from his original<br> floppies, available for the `Atari 8-bit` and `Commodore 64` .
+Source code for **[Worms?]** by **[David S. Maynard]** from his original<br>
+floppies, available for the  `Atari 8-bit`  and  `Commodore 64` .
 
 <br>
-
-*He generously released the code under **MIT** license.*
-
-
 <br>
     
----
-
 [![Button Gameplay]][Gameplay]   
 [![Button Notes]][Notes]   
 [![Button Scanned]][Scanned]   
 [![Button Darworms]][Darworms]
 
----
-    
 <br>
+<br>
+
+*He generously released the code under **MIT** license.*
+
 <br>
 <br>
 
 ##  Atari 8-bit
 
-<kbd> 1983 / 04 / 19 </kbd>
+<kbd>  1983 / 04 / 19  </kbd>
 
 <br>
 
@@ -104,9 +101,9 @@ Source code for **[Worms?]** by **[David S. Maynard]** from his original
 
 ### Details
 
-`EAFORTH` & `SYSTEM` are fake files.
+`EAFORTH`  &  `SYSTEM`  are fake files.
 
-`EAFORTH` was probably a proprietary / custom<br>
+`EAFORTH`  was probably a proprietary / custom<br>
 version of the language used at **Electronics Arts**.
 
 <br>
@@ -122,7 +119,6 @@ version of the language used at **Electronics Arts**.
 [Worms?]: https://en.wikipedia.org/wiki/Worms%3F 'Wikipedia Article on Worms?'
 [Notes]: https://archive.org/details/david-maynard-worms-development-notes 'Archive of the Development Notes'
 
-[Badge License]: https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge
 [License]: LICENSE
 
 
@@ -140,9 +136,14 @@ version of the language used at **Electronics Arts**.
 [Image Atari B]: Binaries/Atari/B.ATR
 
 
+<!--------------------------------{ Badges }----------------------------------->
+
+[Badge License]: https://img.shields.io/badge/License-MIT-ac8b11.svg?style=for-the-badge&labelColor=yellow
+
+
 <!-------------------------------{ Buttons }----------------------------------->
 
-[Button Gameplay]: https://img.shields.io/badge/Gameplay-yellow?style=for-the-badge
-[Button Darworms]: https://img.shields.io/badge/Darworms-orange?style=for-the-badge
-[Button Scanned]: https://img.shields.io/badge/Scanned_Code-52819d?style=for-the-badge
-[Button Notes]: https://img.shields.io/badge/Development_Notes-6b9d52?style=for-the-badge
+[Button Gameplay]: https://img.shields.io/badge/Gameplay-yellow?style=for-the-badge&logoColor=white&logo=AppleArcade
+[Button Darworms]: https://img.shields.io/badge/Darworms-orange?style=for-the-badge&logoColor=white&logo=CommonWorkflowLanguage
+[Button Scanned]: https://img.shields.io/badge/Scanned_Code-52819d?style=for-the-badge&logoColor=white&logo=Slack
+[Button Notes]: https://img.shields.io/badge/Development_Notes-6b9d52?style=for-the-badge&logoColor=white&logo=GitBook
